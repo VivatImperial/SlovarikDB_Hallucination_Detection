@@ -1,0 +1,8 @@
+torch
+transformers[torch]
+sentence-transformers
+polars
+numpy
+llama-cpp-python
+slovnet
+navec
