@@ -3,7 +3,7 @@ import polars as pl
 
 
 def main() -> None:
-    test_df = pl.read_csv("data/test.csv")
+    test_df = pl.read_csv("data\share\\test.csv")
     test_df_dicts = test_df.to_dicts()
 
     predict = pipeline("vsevolo_de_bert", test_df_dicts, use_NER=True)
