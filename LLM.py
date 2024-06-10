@@ -4,7 +4,7 @@ from llama_cpp import Llama
 class LLM_predictor:
     def __init__(self) -> None:
         self.llm = Llama(
-            model_path="llama_w/saiga_llama3_8b-q4_K_new.gguf",
+            model_path="llama_w\model-q4_K.gguf",
             n_parts=1,
             n_gpu_layers=-1,
             n_ctx=8192
